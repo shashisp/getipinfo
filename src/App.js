@@ -53,8 +53,11 @@ class App extends Component {
     });
 
     }
+    else{
+    this.setState({error: 'Invalid IP'});      
+    }
 
-    this.setState({error: 'Invalid IP'});
+
 
   }
 
